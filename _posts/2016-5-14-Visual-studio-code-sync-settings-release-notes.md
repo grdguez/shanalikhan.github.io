@@ -5,6 +5,12 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+
+***Version - 1.5.0**
+
+* Implemented - [#39](https://github.com/shanalikhan/code-settings-sync/issues/39). When you are doing development in both Mac and Windows and you need to sync their key bindings both. Now you can have that! When you download the settings on new computer, it will download the respective OS latest saved key binding file. Have any idea to enhance, feel free to contact! :)
+
+
 **Version - 1.4.0**
 
 
