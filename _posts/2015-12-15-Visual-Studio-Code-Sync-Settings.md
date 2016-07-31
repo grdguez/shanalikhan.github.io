@@ -13,7 +13,7 @@ I have developed a small utility in order to synchronize your visual studio code
 </p>
 </blackquote>
 
-> To Install : type "ext install Visual Studio Code Settings Sync"
+> To Install : type "ext install code-settings-sync"
 
 ### Key Features
 
@@ -27,7 +27,7 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 
-### It Sync
+### It Syncs
 
 * Settings File
 * Keybinding File
@@ -94,7 +94,8 @@ You are Done ! All your files are downloaded and it will start downloading your 
 
 ![Enter Your GIST ID](/img/download3.png)
 
-> To Install : type "ext install Visual Studio Code Settings Sync"
+> To Install : type "ext install code-settings-sync"
+
 
 <blackquote>
 <p>
