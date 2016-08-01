@@ -11,7 +11,7 @@ Here are the release notes for each of the version released.
 * Fixed [#53](https://github.com/shanalikhan/code-settings-sync/issues/53) with PR [#54](https://github.com/shanalikhan/code-settings-sync/pull/54).
 * Added two commands- "Open Settings" and "How to configure"
 * Open Settings command will open the JSON file to edit the settings manually.
-* How to configure is not new users to open the guide easily.
+* How to configure is for new users to open the guide easily.
 
 
 **Version - 1.5.0**
