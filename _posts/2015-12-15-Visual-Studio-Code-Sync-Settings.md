@@ -15,6 +15,9 @@ I have developed a small utility in order to synchronize your visual studio code
 
 > To Install : type "ext install code-settings-sync"
 
+<strong> Type Sync in command to get all the commands </strong>
+
+
 ### Key Features
 
 
@@ -23,7 +26,7 @@ I have developed a small utility in order to synchronize your visual studio code
 * Saves all settings and snippets files.
 * Upload Key : Shift + Alt + u
 * Download Key : Shift + Alt + d
-* Type Sync In Order to View all sync options
+* Auto Download the settings when Visual Studio Code Starts.
 
 
 
@@ -82,7 +85,7 @@ Enter the github account in the window and click enter.
 
 ![github account access token](/img/upload1.png)
 
-####Enter Your GIST ID.
+#### Enter Your GIST ID.
 
 you need to enter your Gist ID in order to get the all files
 
@@ -93,6 +96,17 @@ you need to enter your Gist ID in order to get the all files
 You are Done ! All your files are downloaded and it will start downloading your extensions in the background and will let you know to restart the VSCode in order to use the installed extensions.
 
 ![Enter Your GIST ID](/img/download3.png)
+
+
+## Reset Token / GIST Settings
+
+> Type ">Sync" In Command Palette and select Reset Token and GIST Settings
+
+## Enable Auto Download
+When token and GIST is filled up correctly, you can enable auto download the latest settings on the editor startup. This will save you to download all the settings from the cloud again and again in different systems. To enable :
+
+**Select Command "Toggle Auto Download" command to Turn ON / OFF the auto download.**
+
 
 > To Install : type "ext install code-settings-sync"
 
