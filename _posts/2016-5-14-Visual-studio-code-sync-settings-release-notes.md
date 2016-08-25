@@ -7,6 +7,8 @@ Here are the release notes for each of the version released.
 
 
 **Version - 2.0.1**
+
+
 * Added Automatic Syncing [#31](https://github.com/shanalikhan/code-settings-sync/issues/31). Now you can turn ON the auto download settings from the command and it will just download the latest settings everytime the editor is started. Feel free to report bug or send me a pull request :) if there are any. How to do that? Read Me post is updated, Visit there to get step by step.
 * Fixed [#72](https://github.com/shanalikhan/code-settings-sync/issues/72)
 * Added more exception handling in different places.
