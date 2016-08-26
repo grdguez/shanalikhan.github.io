@@ -105,7 +105,7 @@ You are Done ! All your files are downloaded and it will start downloading your 
 ## Enable Auto Download
 When token and GIST is filled up correctly, you can enable auto download the latest settings on the editor startup. This will save you to download all the settings from the cloud again and again in different systems. To enable :
 
-**Select Command "Toggle Auto Download" command to Turn ON / OFF the auto download.**
+Select Command "Toggle Auto Download" command to Turn ON / OFF the auto download.
 
 
 > To Install : type "ext install code-settings-sync"

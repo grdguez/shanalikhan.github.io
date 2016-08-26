@@ -14,4 +14,4 @@ have a backup JSON file to replace with in case of extension not working.
 
 JSON has two parts the **Token** and **GIST** which you need to add correctly to run extension.
 
-**Don't Change the other fields like Dates or it will stop working...**
+<strong>Don't Change the other fields like Dates or it will stop working...</strong>
