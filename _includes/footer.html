@@ -1,10 +1,10 @@
-{% if site.theme.katex %}
+{% if site.themesetting.katex %}
 <script src="{{ "/js/katex_init.js" | prepend: site.baseurl }}"></script>
 {% endif %}
 
-{% if site.theme.footer_text %}
+{% if site.themesetting.footer_text %}
 <footer class="site-footer">
-	<p class="text">{{ site.theme.footer_text }}</p>
+	<p class="text">{{ site.themesetting.footer_text }}</p>
 	<br/>
 	
 </footer>
