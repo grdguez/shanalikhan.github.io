@@ -8,6 +8,8 @@ Here are the release notes for each of the version released.
 **Version - 2.1.0**
 
 
+
+
 * Added Extension Summary Feature [#21](https://github.com/shanalikhan/code-settings-sync/issues/21). The information messages are removed when you initiate the download or upload process, it will show the summary that which files are downloaded/ uploaded alongwith the extensions which are downloaded or deleted (in case of download). Its a better understanding rather then showing information message of which files are uploaded or downloaded.
 * Information messages showing in start-up was showing again and again when the download process initiated. To cover this i have made a summary page which tells the status, but you can also disable the summary page and keep a quite process but selecting Toggle Summary Page command. [#76](https://github.com/shanalikhan/code-settings-sync/issues/76).
 
