@@ -19,7 +19,8 @@ I have developed a small utility in order to synchronize your visual studio code
 * Easy to Upload and Download on one click.
 * Upload Key : Shift + Alt + U
 * Download Key : Shift + Alt + D
-* Use Other User's Public GIST to completely sync your settings with them.
+* Use Other User's Public GIST to completely 
+  sync your settings with them.
 * Show a summary page at the end with details 
 ```  
 
