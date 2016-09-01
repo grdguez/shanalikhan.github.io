@@ -6,39 +6,32 @@ description : synchronize your visual studio code settings across multiple machi
 
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
-<blackquote>
-<p>
-<strong>MARKETPLACE URL : 
-<a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
-</p>
-</blackquote>
+> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+
 
 > To Install : type "ext install code-settings-sync"
-
-<strong> Type Sync in command to get all the commands </strong>
-
 
 **Type Sync in command Palette in order to view all commands.**
 
 ### Key Features
 ```
-1. Use your github account token and GIST.
-2. Easy to Upload and Download on one click.
-3. Upload Key : Shift + Alt + U
-4. Download Key : Shift + Alt + D
-5. Use Other User's Public GIST to completely sync your settings with them.
-6. Show a summary page at the end with details 
+* Use your github account token and GIST.
+* Easy to Upload and Download on one click.
+* Upload Key : Shift + Alt + U
+* Download Key : Shift + Alt + D
+* Use Other User's Public GIST to completely sync your settings with them.
+* Show a summary page at the end with details 
 ```  
 
 
 
 ## It Syncs
 ```
-1. Settings File
-2. Keybinding File
-3. Launch File
-4. Snippets Folder
-5. VSCode Extensions
+* Settings File
+* Keybinding File
+* Launch File
+* Snippets Folder
+* VSCode Extensions
 ```
 
 	
@@ -135,10 +128,4 @@ Select Command **"Sync : Advance Options > Fetch Other User's Settings"**
 
 > To Install : type "ext install code-settings-sync"
 
-
-<blackquote>
-<p>
-<strong>MARKETPLACE URL :
-<a href="https://marketplace.visualstudio.com/items/Shan.code-settings-sync">Visual Studio Code Settings Sync</a></strong>
-</p>
-</blackquote>
+> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
