@@ -25,7 +25,7 @@ I have developed a small utility in order to synchronize your visual studio code
 
 
 
-## It Syncs
+### It Syncs
 ```
 * Settings File
 * Keybinding File
@@ -35,7 +35,7 @@ I have developed a small utility in order to synchronize your visual studio code
 ```
 
 	
-## Steps To Get the Github Key.
+### Steps To Get the Github Key.
 
 This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures.
 
@@ -53,7 +53,7 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 > You need to save this key for this extension for future use, and dont share this key with anyone as it will get your data without needing to logg in.
 
-## Upload Your Settings For the first time
+### Upload Your Settings For the first time
 
 
 #### Type "Sync : Upload" in command
@@ -71,7 +71,7 @@ Copy this Gist ID in order to download the settings in other machines.
 ![uploaded automatically](/img/upload2.png)
 
 
-## Download your Settings
+### Download your Settings
 
 #### Type "Sync : Download" in command
 
@@ -94,32 +94,32 @@ You are Done ! All your files are downloaded and it will start downloading your 
 ![Enter Your GIST ID](/img/download3.png)
 
 
-## Reset Token / GIST Settings
+### Reset Token / GIST Settings
 
 > Type ">Sync" In Command Palette and select Reset Token and GIST Settings
 
-## Toggle Auto Download
+### Toggle Auto Download
 
 Auto Download is **enabled by default**. It will sync all the setting by default when the editor starts.
 Please make sure you have valid github Token and GIST available to make it work properly.
 
 Select Command **"Sync : Advance Options > Toggle Auto-Download On Startup"** command to Turn ON / OFF the auto download.
 
-## Toggle Summary
+### Toggle Summary
 
 Summary is **enabled by default** which shows all the files and extensions that are added or deleted in a single page.
 You may turn it off in order to make a upload and download process clean and quiet.  
 
 Select Command **"Sync : Advance Options > Toggle Summary Page On Upload / Download"** command to Turn ON / OFF the auto download.
 
-## Create Public GIST To Share
+### Create Public GIST To Share
 
 By default, it creates secret GIST so only you can see it but if you want to share your GIST with other users, you can set it to public.
 You can't change the exiting GIST type from secret to public so it will reset the GIST ID so you can create new GIST with all the existing editor settings.
 
 Select Command **"Sync : Advance Options > Public / Private GIST Mode & Reset GIST"**
 
-## Fetch Other User's Settings
+### Fetch Other User's Settings
 
 You may give the GIST ID to other users , your friends or employees so they download each of the extensions or settings you upload but they cant edit your GIST or upload anything on your GIST.
 
