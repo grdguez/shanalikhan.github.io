@@ -5,6 +5,10 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.2.4**
+* Added Toggle Force Download options to initiate download process even you have the latest settings.
+* Open URL when settings are opened and other small tweaks.
+
 **Version - 2.2.3**
 
 * Now you can create public GIST, instead of secret GIST so any one may see your settings.

@@ -26,7 +26,8 @@ have a backup JSON file to replace with in case of extension not working.
     "Version": 223,
     "showSummary": true,
     "allowUpload": true,
-    "publicGist": false
+    "publicGist": false,
+    "forceDownload":true
 }
 
 ```
@@ -37,10 +38,10 @@ have a backup JSON file to replace with in case of extension not working.
 
 JSON has two parts the **Token** and **GIST** which you need to add correctly to run extension.
 
-**Don't change Version or it will stop working as expected.**
+**Don't change Version and Dates or it will stop working as expected.**
 
 * **autoSync** : `true` by default. It will start download process automatically when Visual Studio Loads when set to `true` , `false` will not allow extension to auto download the settings upon startup.
 *  **showSummary** : `true` by default. It will show the summary page when download or upload process completes displaying the files changed and extensions added or removed. Setting `false` will allow quiet process in the background and only notify via editor statusbar.
 * **publicGist** : `false` by default. It tells the extension to either generate the public or secret GIST. `false` will generate secret GIST and `true` will generate public GIST.
 * **version** : **Dont Change** , its for helping extension to run the migration process from old settings to new settings for the new versions when released.
-* **Dates** : It helps identity wheather you have the latest version of settings downloaded. If you want to initiate the manual download process you need to set both dates as empty strings or null.
+* **forceDownload** : `false` by default. If you set it to `true` it will overwrite the existing settings everytime the download process initiated either manually or on start.
