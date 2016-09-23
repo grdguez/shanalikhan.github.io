@@ -106,6 +106,23 @@ Please make sure you have valid github Token and GIST available to make it work 
 
 Select Command **"Sync : Advance Options > Toggle Auto-Download On Startup"** command to Turn ON / OFF the auto download.
 
+### Toggle Force Download
+
+Force Download is **disabled by default**. By default extension wont download the latest settings if you already have latest downloaded version , but sometime when you delete some extension locally and dont upload the settings it will still show you have latest versions by date or time checks, by turning this ON it will always download the cloud settings on startup.
+
+Please make sure you have valid github Token and GIST available to make it work properly.
+
+Select Command **"Sync : Advance Options > Toggle Force Download"** command to Turn ON / OFF the force download.
+
+### Toggle Auto-Upload on change
+Auto-upload is **disabled by default**. When the settings are changed and saved this feature will automatic start the upload process and save the settings online.
+
+Please make sure you have valid github Token and GIST available to make it work properly.
+
+Select Command **"Sync : Advance Options > Toggle Auto-Upload on Setting Change"** command to Turn ON / OFF the auto-upload.
+
+
+
 ### Toggle Summary
 
 Summary is **enabled by default** which shows all the files and extensions that are added or deleted in a single page.
@@ -125,7 +142,6 @@ Select Command **"Sync : Advance Options > Public / Private GIST Mode & Reset GI
 You may give the GIST ID to other users , your friends or employees so they download each of the extensions or settings you upload but they cant edit your GIST or upload anything on your GIST.
 
 Select Command **"Sync : Advance Options > Fetch Other User's Settings"**
-
 
 > To Install : type "ext install code-settings-sync"
 
