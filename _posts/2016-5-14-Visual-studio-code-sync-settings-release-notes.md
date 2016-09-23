@@ -5,6 +5,18 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.3.1**
+
+* Added auto-upload feature , disable by default. It will start uploading process when any of the setting is changed automatically.
+* Exception handling Added
+* Reverted [#97](https://github.com/shanalikhan/code-settings-sync/issues/97) and fixed [#106](https://github.com/shanalikhan/code-settings-sync/issues/106)
+
+**Version -2.2.7**
+
+* Fixed [#105](https://github.com/shanalikhan/code-settings-sync/issues/105) , [#101](https://github.com/shanalikhan/code-settings-sync/issues/101) , [#95](https://github.com/shanalikhan/code-settings-sync/issues/98) , [#96](https://github.com/shanalikhan/code-settings-sync/issues/96) , [#93](https://github.com/shanalikhan/code-settings-sync/issues/93) and [#90](https://github.com/shanalikhan/code-settings-sync/issues/90)
+
+
+
 **Version - 2.2.4**
 
 * Added Toggle Force Download options to initiate download process even you have the latest settings.
