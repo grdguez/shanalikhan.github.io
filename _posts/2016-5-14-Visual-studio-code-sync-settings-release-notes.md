@@ -9,7 +9,7 @@ Here are the release notes for each of the version released.
 
 
 * Improvements with auto upload.
-* Fixed [#117](https://github.com/shanalikhan/code-settings-sync/issues/117) , [#106](https://github.com/shanalikhan/code-settings-sync/issues/106)
+* Fixed [#117](https://github.com/shanalikhan/code-settings-sync/issues/117) , [#97](https://github.com/shanalikhan/code-settings-sync/issues/97)
 
 
 **Version - 2.3.1**
