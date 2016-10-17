@@ -5,6 +5,13 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.3.3**
+
+
+* Improvements with auto upload.
+* Fixed [#117](https://github.com/shanalikhan/code-settings-sync/issues/117) , [#106](https://github.com/shanalikhan/code-settings-sync/issues/106)
+
+
 **Version - 2.3.1**
 
 * Added auto-upload feature , disable by default. It will start uploading process when any of the setting is changed automatically.
