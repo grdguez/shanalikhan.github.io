@@ -5,6 +5,12 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.3.4**
+
+* Proxy Support Added [#60](https://github.com/shanalikhan/code-settings-sync/issues/60). It will now support http.proxy settings from code settings.json file.
+* Auto upload settings on extension remove and install will be done in 2.4 version as there is limitation in vscode, i have already opened an [issue](https://github.com/Microsoft/vscode/issues/14444) in code repository. 
+
+
 **Version - 2.3.3**
 
 
