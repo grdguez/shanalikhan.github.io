@@ -38,13 +38,13 @@ I have developed a small utility in order to synchronize your visual studio code
 	
 ### Steps To Get the Github Key.
 
-This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures.
+This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures. Make sure you select **GIST** in scope 
 
 #### Goto Settings / Personal Access Tokens / Generate New Token
 
 ![Goto Settings / Personal Access Tokens](/img/github1.PNG)
 
-#### Select Scopes
+#### Select GIST From Scopes
 
 ![Select Scopes](/img/github2.PNG)
 
