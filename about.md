@@ -79,4 +79,4 @@ Experience of more than 3 years in IT dealing with wide range of applications an
 
 [shanalikhan@hotmail.com](mailto:shanalikhan@hotmail.com)
 
-[@shan_ali_khan](https://twitter.com/shan_ali_khan)
+[@itsShanKhan](https://twitter.com/itsShanKhan)
