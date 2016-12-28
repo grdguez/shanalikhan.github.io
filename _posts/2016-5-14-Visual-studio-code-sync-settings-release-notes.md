@@ -5,6 +5,16 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.4.0**
+
+* This version is currently released for Code version 1.9 users that are currently insiders. Once I make sure that its working fine, i will publish 2.4.1 in next week for normal build users.
+* [#167](https://github.com/shanalikhan/code-settings-sync/issues/167) Changed the name from Visual Studio Code Settings Sync to Settings Sync for better understanding.
+* [#168](https://github.com/shanalikhan/code-settings-sync/issues/168) Added workspaces sync feature - User can now sync all the workspaces alongwith the settings across multiple machines that will include tasks.json and other files.
+* [#111](https://github.com/shanalikhan/code-settings-sync/issues/111) Previously the extension was configured by its own settings file. But now it will be configured using Code's own configuration settings.
+* [#144](https://github.com/shanalikhan/code-settings-sync/issues/144) Sharing settings are more easier it will remove the existing Gist and create new public Gist and upload the settings. Users can download the other users Gist but cannot make changes to other User Gist.
+* Bugs Resolved [#161](https://github.com/shanalikhan/code-settings-sync/issues/161)
+
+
 **Version - 2.3.4**
 
 * Proxy Support Added [#60](https://github.com/shanalikhan/code-settings-sync/issues/60). It will now support http.proxy settings from code settings.json file.
