@@ -15,7 +15,7 @@ You can now share your visual studio code settings with other users, you will ju
 
 Please make sure you have my extension installed in visual studio code. If you dont have you need to install it and go through the [Readme](http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html) page to check how to use the extension.
 
-> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
 
 
 > To Install : type "ext install code-settings-sync" 
@@ -26,39 +26,23 @@ They wont be able to change your settings or extenion information so you can sha
 
 ### Creating GIST To Share
 
-**Set GIST Generation Mode to Public**
-
 By default extension creates the secret GIST so only you can see it from your github page. So you need to create the public GIST so anyone can see your GIST contents.
 
-> By command : Sync : Advanced Options > Sync : Toggle Public / Private GIST Mode.
+> By command : Sync : Advance Options > Share Settings with Public GIST
 
-It will show information message that public GIST mode is turned on.
-
-**Upload your Settings**
-
-Once you have enabled the public GIST Mode, you need to upload your settings. Once you upload your settings extension will generate new GIST ID and upload your editor settings and extensions there.
-
-> By command : Sync : Update / Upload Settings. 
-
-At the end of upload process , it will show the summary page which contains the **GIST ID** containing all the settings, you need to copy that ID and pass that ID to other users that have extension installed.
+It will remove your current Gist and create new public Gist and upload the settings. You can share your settings with other users.
 
 
 ### Downloading The Settings From Shared GIST
 
-**Fetch GIST By GIST ID**
+> By command : Sync : Download Settings
 
-Once you have the shared GIST ID, you need to setup in your extension by the command.
+Just enter the public Gist, it will automatically download the Gist contents. 
 
-> By command : Sync : Advanced Settings > Fetch Other User's Settings
-
-It will start downloading the settings and extensions from the shared GIST.
-
-Your editor is configured !
-
-By default , the auto download is enabled so when you start your editor it will automatically download the settings and extensions from the shared GIST.
+Extension dont allow users to edit or change the Gist of other Users.
 
 
-> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
 
 
 > To Install : type "ext install code-settings-sync" 
