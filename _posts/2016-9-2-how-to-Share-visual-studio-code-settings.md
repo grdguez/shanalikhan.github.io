@@ -15,7 +15,7 @@ You can now share your visual studio code settings with other users, you will ju
 
 Please make sure you have my extension installed in visual studio code. If you dont have you need to install it and go through the [Readme](http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html) page to check how to use the extension.
 
-> MARKETPLACE URL : **[Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Settings Sync](https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
 
 
 > To Install : type "ext install code-settings-sync" 
@@ -42,7 +42,7 @@ Just enter the public Gist, it will automatically download the Gist contents.
 Extension dont allow users to edit or change the Gist of other Users.
 
 
-> MARKETPLACE URL : **[Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Settings Sync](https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
 
 
 > To Install : type "ext install code-settings-sync" 
