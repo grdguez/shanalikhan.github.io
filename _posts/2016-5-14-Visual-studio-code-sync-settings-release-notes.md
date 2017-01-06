@@ -5,6 +5,12 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.4.2**
+
+* workspaces is configurable default as false
+* Fixing Bug [#161](https://github.com/shanalikhan/code-settings-sync/issues/161)
+* Supporting Anonymous Gists [#180](https://github.com/shanalikhan/code-settings-sync/issues/180)
+
 **Version - 2.4.0**
 
 * This version is currently released for Code version 1.9 users that are currently insiders. Once I make sure that its working fine, i will publish 2.4.1 in next week for normal build users.
