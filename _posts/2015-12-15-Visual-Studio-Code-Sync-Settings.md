@@ -4,9 +4,6 @@ title: Visual Studio Code Settings Synchronization
 description : synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 ---
 
-#### Previously Known as Visual Studio Code Settings Sync
-
-
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
 > MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
@@ -18,32 +15,32 @@ I have developed a small utility in order to synchronize your visual studio code
 
 ## Key Features
 
-*. Use your github account token and Gist.
-*. Can create Anonymous Gist without asking your Github account token.
-*. Easy to Upload and Download on one click.
-*. Show a summary page at the end with details about config and extensions effected.
-*. Auto Download Latest Settings on Startup.
-*. Auto upload Settings on file change.
-*. Share the Gist with other users and let them download your settings.
+* Use your github account token and Gist.
+* Can create Anonymous Gist without asking your Github account token.
+* Easy to Upload and Download on one click.
+* Show a summary page at the end with details about config and extensions effected.
+* Auto Download Latest Settings on Startup.
+* Auto upload Settings on file change.
+* Share the Gist with other users and let them download your settings.
 
 
 
 ## It Syncs
-```
+
 All the extensions and complete User Folder that Contains
-1. Settings File
-2. Keybinding File
-3. Launch File
-4. Snippets Folder
-5. VSCode Extensions Settings
-6. Workspaces
-```
-   
+
+* Settings File
+* Keybinding File
+* Launch File
+* Snippets Folder
+* VSCode Extensions Settings
+* Workspaces
+
+
 ## Shortcuts
-```
-1. Upload Key : Shift + Alt + U
-2. Download Key : Shift + Alt + D
-```
+
+* Upload Key : Shift + Alt + U
+* Download Key : Shift + Alt + D
 
 	
 ### Steps To Get the Github Key.
