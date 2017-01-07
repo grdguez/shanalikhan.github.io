@@ -27,6 +27,7 @@ They wont be able to change your settings or extenion information so you can sha
 ### Creating GIST To Share
 
 By default extension creates the secret GIST so only you can see it from your github page. So you need to create the public GIST so anyone can see your GIST contents.
+By default extension requires Github token to create Gist, if you are not willing to provide your Github token so can set `anonymousGist` to `true` from settings to create Anonymous Gist
 
 > By command : Sync : Advance Options > Share Settings with Public GIST
 
