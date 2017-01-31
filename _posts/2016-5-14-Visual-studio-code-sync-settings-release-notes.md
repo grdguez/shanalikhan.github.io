@@ -5,6 +5,13 @@ description : Release notes for visual studio code sync settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.4.3**
+
+* Fixing Bugs [#190](https://github.com/shanalikhan/code-settings-sync/issues/190)
+* Fixing Bugs [#194](https://github.com/shanalikhan/code-settings-sync/issues/194)
+* Gist Uploaded will contains extension version information for future work.
+
+
 **Version - 2.4.2**
 
 * workspaces is configurable default as false
