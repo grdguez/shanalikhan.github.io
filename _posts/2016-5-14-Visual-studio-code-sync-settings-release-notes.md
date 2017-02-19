@@ -7,7 +7,7 @@ Here are the release notes for each of the version released.
 
 **Version - 2.4.5**
 
-* Added Feature [#100](https://github.com/shanalikhan/code-settings-sync/issues/100) - You can set some files and folders not to upload and some settings from the settings.json not to download
+* Added Feature [#100](https://github.com/shanalikhan/code-settings-sync/issues/100) - Detailed post on [here](http://shanalikhan.github.io/2017/02/19/Option-to-ignore-settings-folders-code-settings-sync.html)
 * Extension Enhanced [#203](https://github.com/shanalikhan/code-settings-sync/issues/203)
 * Fixing Bugs [#206](https://github.com/shanalikhan/code-settings-sync/issues/206)
 * Fixing Bugs [#213](https://github.com/shanalikhan/code-settings-sync/issues/213)
