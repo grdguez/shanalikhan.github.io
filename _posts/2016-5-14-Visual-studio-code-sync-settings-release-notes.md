@@ -1,9 +1,18 @@
 ---
 layout: post
 title: Visual Studio Code Sync Settings Release Notes
-description : Release notes for visual studio code sync settings
+description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
+
+**Version - 2.4.5**
+
+* Added Feature [#100](https://github.com/shanalikhan/code-settings-sync/issues/100) - You can set some files and folders not to upload and some settings from the settings.json not to download
+* Extension Enhanced [#203](https://github.com/shanalikhan/code-settings-sync/issues/203)
+* Fixing Bugs [#206](https://github.com/shanalikhan/code-settings-sync/issues/206)
+* Fixing Bugs [#213](https://github.com/shanalikhan/code-settings-sync/issues/213)
+
+
 
 **Version - 2.4.3**
 
