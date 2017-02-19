@@ -40,7 +40,7 @@ All the folder names defined in it will not be uploaded in Gist, Folder can be c
 Like in the above example, workspaceStorage folder files will not be uploaded to Github Gist.
 
 
-##### replaceCodeSettings
+#### replaceCodeSettings
 
 ```
 {
