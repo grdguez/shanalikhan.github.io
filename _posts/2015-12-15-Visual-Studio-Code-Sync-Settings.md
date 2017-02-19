@@ -85,9 +85,6 @@ Copy this Gist ID in order to download the settings in other machines.
 
 > Shortcut Key : Shift + Alt + d
 
-Enter the github account in the window and click enter.
-
-![github account access token](/img/upload1.png)
 
 #### Enter Your GIST ID.
 
@@ -154,12 +151,6 @@ Select Command **"Sync : Advance Options > Share Settings with Public GIST"**
 Other users can give your Gist Id to download the Gist, but they cant upload their settings on your Gist.
 
 
-### Workspaces Sync
-
-By default, extension will not sync your WorkspaceStorage folder. You need to set `sync.workspaceSync` to true in order to enable this. It will only sync the `.json` files inside your WorkspaceStorage folder.
-
-
-
 ### Settings
 For details regarding settings keys, click [here](http://shanalikhan.github.io/2016/07/31/Visual-Studio-code-sync-setting-edit-manually.html)
 
@@ -173,12 +164,38 @@ For details regarding settings keys, click [here](http://shanalikhan.github.io/2
     "sync.lastDownload": "2016-12-27T15:58:35.760Z",
     "sync.showSummary": true,
     "sync.forceDownload": true,
-    "sync.workspaceSync": false,
     "sync.anonymousGist": false
 }
 
 ```
 
+
+### Customized Sync
+
+Now you can choose which file or folder you have to upload to Gist or which setting you want to keep after downloading the settings from other computers.
+Extension will create the syncLocalSettings.json insider User folder upon code start and connect with it.
+
+The JSON will be created as:
+
+```
+{
+    "ignoreUploadFiles": [
+        "projects.json",
+        "projects_cache_git.json"
+    ],
+    "ignoreUploadFolders": [
+        "workspaceStorage"
+    ],
+    "replaceCodeSettings": [
+        {
+            "name":"http.proxy",
+            "value":""
+        }
+    ]
+}
+```
+
+For details about customized sync, visit my post [here](http://shanalikhan.github.io/2017/02/19/Option-to-ignore-settings-folders-code-settings-sync.html)
 
 
 ### How To Contribute
@@ -195,6 +212,7 @@ cd code-settings-sync
 npm install
 code .
 ```
+
 Make the respective code changes.
 
 Go to the debugger in VS Code, choose `Launch Extension` and click run. You can test your changes.
