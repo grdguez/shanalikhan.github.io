@@ -5,6 +5,14 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+
+**Version - 2.5.0**
+
+* Fixing Bugs [#225](https://github.com/shanalikhan/code-settings-sync/issues/225)
+* Fixing Bugs [#229](https://github.com/shanalikhan/code-settings-sync/issues/229)
+* Fixing Bugs [#233](https://github.com/shanalikhan/code-settings-sync/issues/233)
+
+
 **Version - 2.4.4**
 
 * Added Feature [#100](https://github.com/shanalikhan/code-settings-sync/issues/100) - Detailed post on [here](http://shanalikhan.github.io/2017/02/19/Option-to-ignore-settings-folders-code-settings-sync.html)
