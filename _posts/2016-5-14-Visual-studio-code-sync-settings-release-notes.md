@@ -6,6 +6,12 @@ description : Release notes for Visual Studio Code Sync Settings
 Here are the release notes for each of the version released.
 
 
+**Version - 2.5.1**
+
+* Local Settings Layout Change - New Layout [here](http://shanalikhan.github.io/2017/02/19/Option-to-ignore-settings-folders-code-settings-sync.html)
+
+
+
 **Version - 2.5.0**
 
 * Fixing Bugs [#225](https://github.com/shanalikhan/code-settings-sync/issues/225)

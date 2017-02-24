@@ -186,12 +186,13 @@ The JSON will be created as:
     "ignoreUploadFolders": [
         "workspaceStorage"
     ],
-    "replaceCodeSettings": [
-        {
-            "name":"http.proxy",
-            "value":""
-        }
-    ]
+    "replaceCodeSettings": 
+    {
+        "http.proxy" :"",
+        "files.autoSave" :"off"
+            
+    }
+    
 }
 ```
 

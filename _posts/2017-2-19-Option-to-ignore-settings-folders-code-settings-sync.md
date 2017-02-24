@@ -17,12 +17,12 @@ The JSON File will contain :
     "ignoreUploadFolders": [
         "workspaceStorage"
     ],
-    "replaceCodeSettings": [
-        {
-            "name":"http.proxy",
-            "value":""
-        }
-    ]
+    "replaceCodeSettings": 
+    {
+        "http.proxy" :"",
+        "files.autoSave" :"off"
+            
+    }
 }
 ```
 
@@ -44,8 +44,9 @@ Like in the above example, workspaceStorage folder files will not be uploaded to
 
 ```
 {
-            "name":"http.proxy",
-            "value":""
+        "http.proxy" :"",
+        "files.autoSave" :"off"
+            
 }
 ```
 
