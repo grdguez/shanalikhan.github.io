@@ -5,6 +5,9 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.6.1**
+
+* Added Support for Github Enterprise
 
 **Version - 2.5.1**
 
