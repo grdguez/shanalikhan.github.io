@@ -5,6 +5,12 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.6.2**
+
+* Fixing [#263](https://github.com/shanalikhan/code-settings-sync/issues/263)
+* Fixing [#192](https://github.com/shanalikhan/code-settings-sync/issues/192)
+
+
 **Version - 2.6.1**
 
 * Added Support for Github Enterprise
