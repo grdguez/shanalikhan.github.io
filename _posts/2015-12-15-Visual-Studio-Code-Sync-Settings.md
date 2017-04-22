@@ -49,15 +49,15 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 #### Goto Settings / Personal Access Tokens / Generate New Token
 
-![Goto Settings / Personal Access Tokens](/img/github1.PNG)
+![Goto Settings / Personal Access Tokens](http://shanalikhan.github.io/img/github1.PNG)
 
 #### Select GIST From Scopes
 
-![Select Scopes](/img/github2.PNG)
+![Select Scopes](http://shanalikhan.github.io/img/github2.PNG)
 
 #### Get Unique Key
 
-![Get Unique Key](/img/github3.PNG)
+![Get Unique Key](http://shanalikhan.github.io/img/github3.PNG)
 
 > You need to save this key for this extension for future use, and dont share this key with anyone as it will get your data without needing to logg in.
 
@@ -70,13 +70,13 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 It will open github account page. Enter the github account in the window and click enter.
 
-![github account access token](/img/upload1.png)
+![github account access token](http://shanalikhan.github.io/img/upload1.png)
 
 #### Upload your settings automatically and give you GIST ID.
 
 Copy this Gist ID in order to download the settings in other machines.
 
-![uploaded automatically](/img/upload2.png)
+![uploaded automatically](http://shanalikhan.github.io/img/upload2.png)
 
 
 ### Download your Settings
@@ -90,13 +90,13 @@ Copy this Gist ID in order to download the settings in other machines.
 
 you need to enter your Gist ID in order to get the all files
 
-![Enter Your GIST ID](/img/download2.png)
+![Enter Your GIST ID](http://shanalikhan.github.io/img/download2.png)
 
 #### Settings Downloaded.
 
 You are Done ! All your files are downloaded and it will start downloading your extensions in the background and will let you know to restart the VSCode in order to use the installed extensions.
 
-![Enter Your GIST ID](/img/download3.png)
+![Enter Your GIST ID](http://shanalikhan.github.io/img/download3.png)
 
 
 ### Reset Token / GIST Settings

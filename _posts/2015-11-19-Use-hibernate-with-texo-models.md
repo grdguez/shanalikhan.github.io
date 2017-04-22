@@ -25,16 +25,16 @@ To resolve the problem we have to generate the ORM ANNOTATED MODEL and set all t
 </blockquote>
 
 
-![Generate the Texo Hibernate](/img/texo_hibernate1.png)
+![Generate the Texo Hibernate](http://shanalikhan.github.io/img/texo_hibernate1.png)
 
 
-![Selecting the collection object](/img/texo_hibernate2.png)
+![Selecting the collection object](http://shanalikhan.github.io/img/texo_hibernate2.png)
 
 
-![Create new Gen Annotation for object](/img/texo_hibernate3.png)
+![Create new Gen Annotation for object](http://shanalikhan.github.io/img/texo_hibernate3.png)
 
 
-![set use list = false](/img/texo_hibernate4.png)
+![set use list = false](http://shanalikhan.github.io/img/texo_hibernate4.png)
 
 
 
