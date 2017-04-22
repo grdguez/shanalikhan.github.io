@@ -6,7 +6,7 @@ description : synchronize your visual studio code settings across multiple machi
 
 I have developed a small utility in order to synchronize your visual studio code settings across multiple machines. Whether your editor settings are changed in office you can set synchronize that settings in home editor also.
 
-> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Visual Studio Code Settings Sync](https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
 
 
 > To Install : type "ext install code-settings-sync"
@@ -229,4 +229,4 @@ If you enjoy this extension. How about donating, Your donation will help me to k
 
 > To Install : type "ext install code-settings-sync"
 
-> MARKETPLACE URL : **[Visual Studio Code Settings Sync]("https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
+> MARKETPLACE URL : **[Visual Studio Code Settings Sync](https://marketplace.visualstudio.com/items/Shan.code-settings-sync)**
