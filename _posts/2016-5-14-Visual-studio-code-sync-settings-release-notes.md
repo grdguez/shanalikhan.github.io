@@ -5,6 +5,14 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.8.0**
+
+* Fixing [#322](https://github.com/shanalikhan/code-settings-sync/issues/322)
+* Fixing [#289](https://github.com/shanalikhan/code-settings-sync/issues/289)
+* Fixing [#320](https://github.com/shanalikhan/code-settings-sync/issues/320)
+* Fixing [#310](https://github.com/shanalikhan/code-settings-sync/issues/310) : Now you can set github token manually from the sync local settings.
+
+
 **Version - 2.7.0**
 
 * Fixing [#296](https://github.com/shanalikhan/code-settings-sync/issues/296) : Now you can easily setup your Gist description while creating new gist.
