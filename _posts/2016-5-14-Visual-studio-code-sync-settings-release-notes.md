@@ -5,6 +5,14 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+
+**Version - 2.8.2**
+
+* Adding more checks for users getting [issue](https://github.com/shanalikhan/code-settings-sync/issues/343) like "Not Found". I will be adding new [option](https://github.com/shanalikhan/code-settings-sync/issues/256) to store settings in onedrive and retrive from it for people having problems connecting GitHub in future release.
+
+* Fixing [issue](https://github.com/shanalikhan/code-settings-sync/issues/342)
+
+
 **Version - 2.8.0**
 
 * Fixing [#322](https://github.com/shanalikhan/code-settings-sync/issues/322)
