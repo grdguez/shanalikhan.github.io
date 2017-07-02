@@ -23,6 +23,7 @@ Here are the release notes for each of the version released.
 
 **Version - 2.7.0**
 
+
 * Fixing [#296](https://github.com/shanalikhan/code-settings-sync/issues/296) : Now you can easily setup your Gist description while creating new gist.
 * Fixing [#295](https://github.com/shanalikhan/code-settings-sync/issues/295) : If user try to change other users gist, extension will show logs displaying the current user and the gist owner user.
 * Fixing [#232](https://github.com/shanalikhan/code-settings-sync/issues/232) : Now you can decide which settings you want to upload.
