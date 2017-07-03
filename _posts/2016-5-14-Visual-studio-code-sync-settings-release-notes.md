@@ -5,13 +5,11 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
-
 **Version - 2.8.2**
 
-* Adding more checks for users getting [issue](https://github.com/shanalikhan/code-settings-sync/issues/343) like "Not Found".
-I will be adding new [option](https://github.com/shanalikhan/code-settings-sync/issues/256) to store settings in onedrive and retrive from it for people having problems connecting GitHub in future release.
-
-* Fixing [issue](https://github.com/shanalikhan/code-settings-sync/issues/342)
+* Improved code for [#343](https://github.com/shanalikhan/code-settings-sync/issues/343) as GitHub API shows "Not Found" Exception on connection. Alot of users are reporting this over time so  I have decided to add new [option](https://github.com/shanalikhan/code-settings-sync/issues/343) to store settings in local drive so you guys can set path of local one drive to export settings there and let one drive do the upload and import from the file location.
+* Fixing [#342](https://github.com/shanalikhan/code-settings-sync/issues/342)
+* If you have MacOS and looking forward to do some work on [#343](https://github.com/shanalikhan/code-settings-sync/issues/343) let me know, i will assist you as i dont have Mac environment.
 
 
 **Version - 2.8.0**
