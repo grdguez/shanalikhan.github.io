@@ -22,6 +22,8 @@ Please reset the settings by sync reset settings command and then again try to d
 
 Check the Token exists in github with Gist Scope
 
+I found some users inserting token in Gist place and Gist in User Token place. Make sure you are not from them =]
+
 Reference : [GitHub](https://developer.github.com/v3/#authentication)
 
 ![Goto Settings / Personal Access Tokens](http://shanalikhan.github.io/img/github2.PNG)
