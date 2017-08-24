@@ -76,4 +76,6 @@ sass:
 
 gems:
   - jekyll-feed
+  
+plugins:
   - jekyll-sitemap
