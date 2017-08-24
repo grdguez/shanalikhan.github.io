@@ -76,3 +76,4 @@ sass:
 
 gems:
   - jekyll-feed
+  - jekyll-sitemap
