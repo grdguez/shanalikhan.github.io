@@ -69,6 +69,9 @@ Run Job 1110 (Global Configuration). Wait until the job finishes its work, then,
 
 **Connect from Code**
 
+
+You need to install nuget package "Microsoft.IdentityModel.Clients.ActiveDirectory" to connect
+
 These are the few terms i would be using to create retail server authenticated context.
 
 * D365Url : This is the retail server URL of the D365
