@@ -5,6 +5,14 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.8.4**
+
+* Fixing extension after API Changes [#428](https://github.com/shanalikhan/code-settings-sync/issues/428) (By : @sonhanguyen)
+* Added GIF for Upload and Download for readme (By : @mmakarios)
+* Documentation Improved (By : @VictorioBerra , @eliasmeire )
+* Typo Fix ( By : @guiconti )
+
+
 **Version - 2.8.3**
 
 * Allow to set multiple gist Description [#319](https://github.com/shanalikhan/code-settings-sync/issues/319). gist you create will have custom name, for example : Home Settings , Office Settings. It will allow you to switch between multiple Gist in single Click, in future updates.
