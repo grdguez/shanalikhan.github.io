@@ -5,6 +5,13 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.8.5**
+
+* Bug Fix : [#440](https://github.com/shanalikhan/code-settings-sync/issues/440)
+* Summary will be displayed on Code Output Window [#137](https://github.com/shanalikhan/code-settings-sync/issues/137) (By : @ThisIsManta)
+* Extension installation message improved [#359](https://github.com/shanalikhan/code-settings-sync/issues/359)
+
+
 **Version - 2.8.4**
 
 * Fixing extension after API Changes [#428](https://github.com/shanalikhan/code-settings-sync/issues/428) (By : @sonhanguyen)
