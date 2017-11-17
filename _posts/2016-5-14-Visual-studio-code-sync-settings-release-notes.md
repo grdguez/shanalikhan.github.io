@@ -5,6 +5,12 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.8.6**
+
+* Bug Fix : [#444](https://github.com/shanalikhan/code-settings-sync/issues/444) - Added support for Latest VS Code.
+* Documentation Improved [#448](https://github.com/shanalikhan/code-settings-sync/pull/448) (By : @textortexxel)
+
+
 **Version - 2.8.5**
 
 * Bug Fix : [#440](https://github.com/shanalikhan/code-settings-sync/issues/440)
