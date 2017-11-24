@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Retail Server OData Controllers Roles
+title: Allowed Roles for Retail Server OData Controllers
 description : Complete details on which you can see the roles allowed for Retail Server OData Controllers.
 ---
 
@@ -18,18 +18,18 @@ But you can check what type of roles each of the Retail Server Controller Action
 
 Navigate to Retail Server in Azure Machine. The controllers are present in the Retail Server Library and you need to decompile the assembly. I personally prefer [JetBrains dotPeek](https://www.jetbrains.com/decompiler/)
 
-![Retail Server](http://shanalikhan.github.io/img/rs-odata-role1.png)
+![Retail Server](http://shanalikhan.github.io/img/rs-odata-role1.PNG)
 
 **Open Assembly in Decompiler**
 
 The Controllers are present in 'ODataControllers' Namespace.
 
-![Retail Server Controllers](http://shanalikhan.github.io/img/rs-odata-role2.png)
+![Retail Server Controllers](http://shanalikhan.github.io/img/rs-odata-role2.PNG)
 
 **Open Controller and See Authorized Roles**
 
-![Retail Server Controllers Roles](http://shanalikhan.github.io/img/rs-odata-role3.png)
-![Retail Server Controllers Roles](http://shanalikhan.github.io/img/rs-odata-role4.png)
+![Retail Server Controllers Roles](http://shanalikhan.github.io/img/rs-odata-role3.PNG)
+![Retail Server Controllers Roles](http://shanalikhan.github.io/img/rs-odata-role4.PNG)
 
 If you are connected through any application custom application, you must have application mode enabled as i discussed in my previous [post](http://shanalikhan.github.io/2017/08/31/enable-application-mode-dynamics-retail-server.html) and you will be able to call the actions that allows application role.
 
