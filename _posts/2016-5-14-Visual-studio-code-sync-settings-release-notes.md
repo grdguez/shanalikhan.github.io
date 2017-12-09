@@ -5,6 +5,13 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.8.7**
+
+* Token dialog will appear when you hit download command [#461](https://github.com/shanalikhan/code-settings-sync/issues/461)
+* Documentation Improved [#467](https://github.com/shanalikhan/code-settings-sync/pull/467) - By @Modelmat
+
+
+
 **Version - 2.8.6**
 
 * Bug Fix : [#444](https://github.com/shanalikhan/code-settings-sync/issues/444) - Added support for Latest VS Code.
