@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professional Experience
+title: Career
 description : ""
 permalink: /career/
 feature-img: "img/sample_feature_img_2.png"
@@ -98,22 +98,20 @@ Database transferred from any database to elastic search to allow caching in the
 Manually created the PowerPoint custom objects in the form of tree after learning the relationships in openXML and generated hierarchy in PDF. 
 
 
-## Software Engineer
-
-### Xabist Technologies – September 2014 – February 2015
+### Xabist Technologies – September 2014 – February 2015 - [Software Engineer]
 
 Main responsibilities were System Analysis & Design and Software Development.
 
-#### System Analysis & Design Responsibilities
+##### System Analysis & Design Responsibilities
 
 Involve in designing Sequence Diagrams, Use Cases designing. Also involve in Preparation of Data Flow Diagrams, Data Model and User Interfaces. Involve in project documentation of different projects developed in software house using online help editors and graphic applications. 
 
-#### Software Development Tasks
+##### Software Development Tasks
 
 Worked as Team Member in different modules for customer relation management system in project for multinational company.
 Worked in developing plugin to integrate Point of Sale with NopCommerce.
 
-#### Solutions Delivered
+##### Solutions Delivered
 
 - The CRM is developed in Asp.net MVC5, Angular JS, and Restful API’s, Entity Framework, and SQL server. For field employees, all the manual paper work is replaced by iPad application connected to CRM via API. All field updates are recorded directly to CRM including payments, customer signatures, job completion etc.
 - Integration of Point of Sale with NopCommerce – NopCommerce is a leading open-source e-commerce solution. Project was completed successfully by integrating of point of sale system with NopCommerce. Plugin was developed in NopCommerce providing Restful API’s connected with the client web application built with HTML5 AngularJS.
