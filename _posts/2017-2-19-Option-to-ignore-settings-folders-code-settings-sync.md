@@ -4,6 +4,11 @@ title: Code Settings Sync Customizable Sync
 description : Add any file or folder inside User folder not to upload / download
 ---
 
+
+#### Note :
+
+This Page is outdated, please visit this [post for detail](http://shanalikhan.github.io/2016/07/31/Visual-Studio-code-sync-setting-edit-manually.html)
+
 Extension will create the syncLocalSettings.json insider User folder upon code start and connect with it.
 
 The JSON File will contain :
