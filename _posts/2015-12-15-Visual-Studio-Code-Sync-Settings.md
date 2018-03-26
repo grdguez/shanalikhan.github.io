@@ -15,14 +15,13 @@ I have developed a small utility in order to synchronize your visual studio code
 
 ## Key Features
 
-* Use your github account token and Gist.
-* Can create Anonymous Gist without asking your Github account token.
+* Use your GitHub account token and Gist.
 * Easy to Upload and Download on one click.
 * Show a summary page at the end with details about config and extensions effected.
 * Auto Download Latest Settings on Startup.
 * Auto upload Settings on file change.
 * Share the Gist with other users and let them download your settings.
-
+* Supports GitHub Enterprise
 
 
 ## It Syncs
@@ -43,23 +42,23 @@ All the extensions and complete User Folder that Contains
 * Download Key : Shift + Alt + D
 
 	
-### Steps To Get the Github Key.
+### Steps To Get a Personal Access Token from GitHub
 
-This extension required your GitHub Account Personal Access Token. You can create one simple by looking into the following pictures. Make sure you select **GIST** in scope 
+This extension requires a Personal Access Token from your GitHub account. You can create one by simply following the steps shown in the pictures below. Make sure you add **Gist** in scope.
 
-#### Goto Settings / Developer settings / Personal Access Tokens / Generate New Token
+#### Go to [Settings](https://github.com/settings) / [Developer settings](https://github.com/settings/tokens) / [Personal access tokens](https://github.com/settings/tokens) / Generate New Token**
 
 ![Goto Settings / Personal Access Tokens](http://shanalikhan.github.io/img/github1.PNG)
 
-#### Select GIST From Scopes
+#### Select Gist From Scopes
 
 ![Select Scopes](http://shanalikhan.github.io/img/github2.PNG)
 
-#### Get Unique Key
+#### Get an Access Token
 
 ![Get Unique Key](http://shanalikhan.github.io/img/github3.PNG)
 
-> You need to save this key for this extension for future use, and dont share this key with anyone as it will get your data without needing to logg in.
+> Save the Token somewhere for future use (i.e. to upload from other machines).
 
 ### Upload Your Settings For the first time
 
@@ -68,29 +67,45 @@ This extension required your GitHub Account Personal Access Token. You can creat
 
 > Shortcut key is : Shift + Alt + u
 
-It will open github account page. Enter the github account in the window and click enter.
+This will automatically open your GitHub settings page, allowing you to generate a new token for the application, as explained in the previous section. This token will allow the extension to create gists.
+
+Enter the GitHub token in the window and click enter.
 
 ![github account access token](http://shanalikhan.github.io/img/upload1.png)
 
 #### Upload your settings automatically and give you GIST ID.
 
-Copy this Gist ID in order to download the settings in other machines.
+Gist ID is needed to access the data you have uploaded with your token. Copy this Gist ID in order to download the settings to other machines. 
 
 ![uploaded automatically](http://shanalikhan.github.io/img/upload2.png)
 
 
+You can always **verify created gist** on the following url:
+
+> https://gist.github.com/{your_userName}/{gist_id}
+
+Here is the gif of the complete process when you execute the Upload command (Might take some time to load)
+
+![Upload](https://media.giphy.com/media/xT9IglKxSqs2Wdwq2c/source.gif)
+
 ### Download your Settings
 
-#### Type "Sync : Download" in command
+#### Type "Sync : Download" in command it will ask your GitHub Gist ID
 
 > Shortcut Key : Shift + Alt + d
+
+#### Enter Your GitHub Token
+
+Enter the GitHub token in the window and click enter.
+
+![github account access token](https://shanalikhan.github.io/img/upload1.png)
 
 
 #### Enter Your GIST ID.
 
-you need to enter your Gist ID in order to get the all files
+You need to enter your Gist ID in order to download the files you have uploaded with Shift + Alt + U.
 
-![Enter Your GIST ID](http://shanalikhan.github.io/img/download2.png)
+![Enter Your Gist ID](https://shanalikhan.github.io/img/download2.png)
 
 #### Settings Downloaded.
 
@@ -98,17 +113,16 @@ You are Done ! All your files are downloaded and it will start downloading your 
 
 ![Enter Your GIST ID](http://shanalikhan.github.io/img/download3.png)
 
+Here is the gif of the complete process when you execute the Download command (Might take time to load)
+
+
+![Download](https://media.giphy.com/media/xT9Iglsi3CS9noE8tW/source.gif)
+
 
 ### Reset Token / GIST Settings
 
 > Type ">Sync" In Command Palette and select Reset Token and GIST Settings
 
-
-### Creating and Downloading Settings From Anonymous Gist
-
-Anonymous Gist is **Turned Off** by default. Github provides a way to create Anonymous Gist so you can create Anonymous Gist without adding your account information (token). But you cant make change on Anonymous Gist once created, its the limitation from the Github so extension will always create new Anonymous Gist upon uploading the settings, you can download the settings from any Anonymous Gist without adding your account information.
-
-To turn on the Anonymous Gist , set `sync.anonymousGist` to true
 
 ### Toggle Auto Download
 
@@ -151,76 +165,16 @@ Select Command **"Sync : Advance Options > Share Settings with Public GIST"**
 Other users can give your Gist Id to download the Gist, but they cant upload their settings on your Gist.
 
 
-### Settings
+### Other Posts
 For details regarding settings keys, click [here](http://shanalikhan.github.io/2016/07/31/Visual-Studio-code-sync-setting-edit-manually.html)
 
-```javascript
-{
-    "sync.gist": "",
-    "sync.version": 242,
-    "sync.lastUpload": "2016-12-27T16:34:19.308Z",
-    "sync.autoDownload": false,
-    "sync.autoUpload": true,
-    "sync.lastDownload": "2016-12-27T15:58:35.760Z",
-    "sync.showSummary": true,
-    "sync.forceDownload": true,
-    "sync.anonymousGist": false
-}
-
-```
+If you are want to share the settings with your users or team members, see the detailed post [here](http://shanalikhan.github.io/2016/09/02/how-to-Share-visual-studio-code-settings.html)
 
 
-### Customized Sync
+<a href="https://join.slack.com/t/codesettingssync/shared_invite/enQtMzE3MjY5NTczNDMwLTYwMTIwNGExOGE2MTJkZWU0OTU5MmI3ZTc4N2JkZjhjMzY1OTk5OGExZjkwMDMzMDU4ZTBlYjk5MGQwZmMyNzk">
+<img src="https://shanalikhan.github.io/img/slack.PNG" alt="Drawing" style="width: 150px;"/>
+</a>
 
-Now you can choose which file or folder you have to upload to Gist or which setting you want to keep after downloading the settings from other computers.
-Extension will create the syncLocalSettings.json insider User folder upon code start and connect with it.
-
-The JSON will be created as:
-
-```
-{
-    "ignoreUploadFiles": [
-        "projects.json",
-        "projects_cache_git.json"
-    ],
-    "ignoreUploadFolders": [
-        "workspaceStorage"
-    ],
-    "replaceCodeSettings": 
-    {
-        "http.proxy" :"",
-        "files.autoSave" :"off"
-            
-    }
-    
-}
-```
-
-For details about customized sync, visit my post [here](http://shanalikhan.github.io/2017/02/19/Option-to-ignore-settings-folders-code-settings-sync.html)
-
-
-### How To Contribute
-
-If you have any idea, you can open an issue on the Github repository so we can further discuss it or you can send me a pull request.
-
-### Through Code
-
-Download source code and install dependencies
-
-```
-git clone https://github.com/shanalikhan/code-settings-sync.git
-cd code-settings-sync
-npm install
-code .
-```
-
-Make the respective code changes.
-
-Go to the debugger in VS Code, choose `Launch Extension` and click run. You can test your changes.
-
-Submit a Pull Request.
-
-### Through Donation
 
 If you enjoy this extension. How about donating, Your donation will help me to keep working and supporting this project.
 
