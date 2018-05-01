@@ -5,6 +5,12 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 2.9.1**
+
+* Bug Fix for OSS Variant  [#510](https://github.com/shanalikhan/code-settings-sync/issues/510) - Thanks for PR [@JacobHenner](https://github.com/JacobHenner)
+* Readme Typo Fix [#531](https://github.com/shanalikhan/code-settings-sync/issues/531) - Thanks for PR [@x4m3](https://github.com/x4m3)
+* syncLocalSettings does not support replacing setting with "False" value [#516](https://github.com/shanalikhan/code-settings-sync/issues/516) - Thanks for PR [@leepowellcouk](https://github.com/leepowellcouk)
+
 
 **Version - 2.9.0**
 
