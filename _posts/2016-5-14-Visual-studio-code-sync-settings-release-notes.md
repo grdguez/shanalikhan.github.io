@@ -5,6 +5,16 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 3.0.0**
+
+* Bug Fix for OSS Variant  [#549](https://github.com/shanalikhan/code-settings-sync/issues/549) - Thanks for PR [@rudfoss](https://github.com/rudfoss)
+* Support i18n for extension - Currently Supports English and Chinese [#581](https://github.com/shanalikhan/code-settings-sync/issues/581) - Thanks for PR [@axetroy](https://github.com/axetroy)
+* Added Functionality to ignore extension in settings sync [#523](https://github.com/shanalikhan/code-settings-sync/pull/523) - Thanks for PR [@leepowellcouk](https://github.com/leepowellcouk)
+* Setting to disable opening of github page [#576](https://github.com/shanalikhan/code-settings-sync/pull/576)
+* Update adm-zip to the latest version [#551](https://github.com/shanalikhan/code-settings-sync/pull/551)
+
+
+
 **Version - 2.9.1**
 
 * Bug Fix for OSS Variant  [#510](https://github.com/shanalikhan/code-settings-sync/issues/510) - Thanks for PR [@JacobHenner](https://github.com/JacobHenner)
