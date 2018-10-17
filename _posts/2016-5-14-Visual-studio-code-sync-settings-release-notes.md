@@ -6,6 +6,20 @@ description : Release notes for Visual Studio Code Sync Settings
 Here are the release notes for each of the version released.
 
 
+**Version - 3.2.0** - 17 Oct, 2018
+
+* Prompt to reload VSCode after installing extensions [#629](https://github.com/shanalikhan/code-settings-sync/issues/629)
+* Keep output of CLI installation command [#628](https://github.com/shanalikhan/code-settings-sync/issues/628)
+* Dont write default settings sync config to code settings.json [#513](https://github.com/shanalikhan/code-settings-sync/issues/513)
+* vscodium download settings fails [#650](https://github.com/shanalikhan/code-settings-sync/issues/650) - Thanks for PR [#651](https://github.com/shanalikhan/code-settings-sync/pull/651) by [@stripedpajamas](https://github.com/stripedpajamas)
+* Does not work with Portable Visual Studio Code [#331](https://github.com/shanalikhan/code-settings-sync/issues/331)
+* Flatpak Support for Settings Sync [#621](https://github.com/shanalikhan/code-settings-sync/issues/621) - Thanks for PR [#657](https://github.com/shanalikhan/code-settings-sync/pull/657) by [@laloch](https://github.com/laloch)
+* Per-platform / per-hostname inline settings [#640](https://github.com/shanalikhan/code-settings-sync/issues/640) - Thanks for PR [#667](https://github.com/shanalikhan/code-settings-sync/pull/667) by [@ioprotium](https://github.com/ioprotium)
+* Idea/Suggestion: Adds support to sync custom files [#258](https://github.com/shanalikhan/code-settings-sync/issues/258) - Thanks for PR [#258](https://github.com/shanalikhan/code-settings-sync/pull/258) by [@tkrtmy](https://github.com/tkrtmy)
+
+
+
+
 **Version - 3.1.2**
 * Extension CLI Download Improvements.
 
