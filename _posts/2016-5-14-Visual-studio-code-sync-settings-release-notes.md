@@ -5,6 +5,15 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+**Version - 3.2.3** - 11 Dec, 2018
+
+* Startup : Long startup activation time on the first start [#656](https://github.com/shanalikhan/code-settings-sync/issues/656) -  Thanks for PR [#717](https://github.com/shanalikhan/code-settings-sync/pull/717) by [@thejewdude](https://github.com/thejewdude)
+* Feature : Adding coder.com support [#714](https://github.com/shanalikhan/code-settings-sync/issues/714) - Thanks for PR [#720](https://github.com/shanalikhan/code-settings-sync/pull/720) by [@deansheather](https://github.com/deansheather)
+
+**Version - 3.2.2** - 26 Nov, 2018
+
+* Sync Advance Setting Menu doesnt open when JSON not Valid [#683](https://github.com/shanalikhan/code-settings-sync/issues/683)
+
 
 **Version - 3.2.1** - 26 Nov, 2018
 
