@@ -18,10 +18,11 @@ I have developed a small utility in order to synchronize your visual studio code
 * Use your GitHub account token and Gist.
 * Easy to Upload and Download on one click.
 * Show a summary page at the end with details about config and extensions effected.
-* Auto Download Latest Settings on Startup.
+* Auto download Latest Settings on Startup.
 * Auto upload Settings on file change.
 * Share the Gist with other users and let them download your settings.
 * Supports GitHub Enterprise
+* Support pragmas with @sync keywords: host, os and env are supported.
 
 
 ## It Syncs
@@ -32,8 +33,8 @@ All the extensions and complete User Folder that Contains
 * Keybinding File
 * Launch File
 * Snippets Folder
-* VSCode Extensions Settings
-* Workspaces
+* VSCode Extensions & Extensions Configurations
+* Workspaces Folder
 
 
 ## Shortcuts
@@ -99,7 +100,6 @@ Here is the gif of the complete process when you execute the Upload command (Mig
 Enter the GitHub token in the window and click enter.
 
 ![github account access token](https://shanalikhan.github.io/img/upload1.png)
-
 
 #### Enter Your GIST ID.
 
