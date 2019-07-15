@@ -23,6 +23,7 @@ I have developed a small utility in order to synchronize your visual studio code
 * Share the Gist with other users and let them download your settings.
 * Supports GitHub Enterprise
 * Support pragmas with @sync keywords: host, os and env are supported.
+* GUI for changing settings / logging in
 
 
 ## It Syncs
@@ -42,89 +43,58 @@ All the extensions and complete User Folder that Contains
 * Upload Key : Shift + Alt + U
 * Download Key : Shift + Alt + D
 
-	
-### Steps To Get a Personal Access Token from GitHub
 
-This extension requires a Personal Access Token from your GitHub account. You can create one by simply following the steps shown in the pictures below. Make sure you add **Gist** in scope.
+## Configure Settings Sync
 
-#### Go to [Settings](https://github.com/settings) / [Developer settings](https://github.com/settings/tokens) / [Personal access tokens](https://github.com/settings/tokens) / Generate New Token**
+Settings Sync Configuration page will be opened automatically on code start and requires two things to setup:
 
-![Goto Settings / Personal Access Tokens](http://shanalikhan.github.io/img/github1.PNG)
+1. Github Token
+2. Github GIST ID
 
-#### Select Gist From Scopes
+Github Token needs to be retrived by your Github account while Settings Sync creates GIST if you are first time user.
 
-![Select Scopes](http://shanalikhan.github.io/img/github2.PNG)
+Following are the steps you need to perform to configure.
 
-#### Get an Access Token
-
-![Get Unique Key](http://shanalikhan.github.io/img/github3.PNG)
-
-> Save the Token somewhere for future use (i.e. to upload from other machines).
-
-### Upload Your Settings For the first time
+- Click on `Login with Github` .
+- Login Github on Browser and close the browser tab once you get Success message.
+- If you are using Settings Sync first time GIST will be created automatically - Configuration Completed.
+- If you already have GIST, new window will be opened to allow you to select the GIST or `Skip` to create new GIST - Configurartion Completed.
 
 
-#### Type "Sync : Upload" in command
-
-> Shortcut key is : Shift + Alt + u
-
-This will automatically open your GitHub settings page, allowing you to generate a new token for the application, as explained in the previous section. This token will allow the extension to create gists.
-
-Enter the GitHub token in the window and click enter.
-
-![github account access token](http://shanalikhan.github.io/img/upload1.png)
-
-#### Upload your settings automatically and give you GIST ID.
-
-Gist ID is needed to access the data you have uploaded with your token. Copy this Gist ID in order to download the settings to other machines. 
-
-![uploaded automatically](http://shanalikhan.github.io/img/upload2.png)
+![Login with GitHub](https://shanalikhan.github.io/img/login-with-github.png)
 
 
-You can always **verify created gist** on the following url:
-
-> https://gist.github.com/{your_userName}/{gist_id}
-
-Here is the gif of the complete process when you execute the Upload command (Might take some time to load)
-
-![Upload](https://media.giphy.com/media/xT9IglKxSqs2Wdwq2c/source.gif)
-
-### Download your Settings
-
-#### Type "Sync : Download" in command it will ask your GitHub Gist ID
-
-> Shortcut Key : Shift + Alt + d
-
-#### Enter Your GitHub Token
-
-Enter the GitHub token in the window and click enter.
-
-![github account access token](https://shanalikhan.github.io/img/upload1.png)
-
-#### Enter Your GIST ID.
-
-You need to enter your Gist ID in order to download the files you have uploaded with Shift + Alt + U.
-
-![Enter Your Gist ID](https://shanalikhan.github.io/img/download2.png)
-
-#### Settings Downloaded.
-
-You are Done ! All your files are downloaded and it will start downloading your extensions in the background and will let you know to restart the VSCode in order to use the installed extensions.
-
-![Enter Your GIST ID](http://shanalikhan.github.io/img/download3.png)
-
-Here is the gif of the complete process when you execute the Download command (Might take time to load)
+![Existing Gist](https://shanalikhan.github.io/img/existing-gist.png)
 
 
-![Download](https://media.giphy.com/media/xT9Iglsi3CS9noE8tW/source.gif)
+You can always **verify created gist** by going to `https://gist.github.com` and checking for a gist named `cloudSettings`
 
 
-### Reset Token / GIST Settings
+## Upload Your Settings
 
-> Type ">Sync" In Command Palette and select Reset Token and GIST Settings
+**Press Shift + Alt + U**
 
+> Type ">Sync" In Command Palette into order download / upload
 
-### Toggle Auto Download
+When downloading or uploading for the first time, the welcome page will automatically open, where you can configure the Settings Sync.
+
+Once you select upload, after uploading the settings. You will see the Summary details with the list of each files and extensions uploaded.
+
+## Download your Settings
+
+**Press Shift + Alt + D**
+
+> Type ">Sync" In Command Palette into order download / upload
+
+When downloading or uploading for the first time, the welcome page will automatically open, where you can configure the Settings Sync.
+
+Once you select download, after downloading. Settings Sync will display you Summary containing the list of each files and extension being downloaded.
+
+New popup will be opened to allow you to restart the code to apply the settings.
+
+## Reset Extension Settings
+
+> Select **"> Sync : Reset Extension Settings"** in the Command Palette to reset your settings### Toggle Auto Download
 
 Auto Download is **disabled by default**. It will sync all the setting by default when the editor starts.
 Please make sure you have valid github Token and Gist available to make it work properly.
