@@ -5,6 +5,40 @@ description : Release notes for Visual Studio Code Sync Settings
 ---
 Here are the release notes for each of the version released.
 
+
+**v3.4.1** - July 22, 2019
+
+* Turn off notifications on code startup [#959](https://github.com/shanalikhan/code-settings-sync/issues/959) - Thanks for PR [#960](https://github.com/shanalikhan/code-settings-sync/pull/960) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Chinese Translation Improved  - Thanks for PR [#966](https://github.com/shanalikhan/code-settings-sync/pull/966) by [@linsui](https://github.com/linsui) and [#961](https://github.com/shanalikhan/code-settings-sync/pull/961) by [@ziofat](https://github.com/ziofat)
+* Russian Translation Improved - Thanks for PR [#957](https://github.com/shanalikhan/code-settings-sync/pull/957) by [@AndreyWV](https://github.com/AndreyWV)
+
+**v3.4.0** - July 15, 2019
+
+* Settings Sync now use Webviews to allow you to configure settings [#506](https://github.com/shanalikhan/code-settings-sync/issues/506) - Thanks for PR [#876](https://github.com/shanalikhan/code-settings-sync/pull/876) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* code snippets not being synced after update to 3.3.0 [#927](https://github.com/shanalikhan/code-settings-sync/issues/927) - Thanks for PR [#928](https://github.com/shanalikhan/code-settings-sync/pull/928) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Implement upload delay setting [#390](https://github.com/shanalikhan/code-settings-sync/issues/390) - Thanks for PR [#925](https://github.com/shanalikhan/code-settings-sync/pull/925) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Dont Upload If GIST and settings content are the same. [#316](https://github.com/shanalikhan/code-settings-sync/issues/316) - Thanks for PR [#923](https://github.com/shanalikhan/code-settings-sync/pull/923) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Prevent accidental upload [#350](https://github.com/shanalikhan/code-settings-sync/issues/350) - Thanks for PR [#923](https://github.com/shanalikhan/code-settings-sync/pull/923) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+
+**v3.3.1** - June 25,2019
+* Small Improvements
+
+**v3.3.0** - June 25,2019
+
+* Code OSS Version Support Added [#668](https://github.com/shanalikhan/code-settings-sync/issues/668) - Thanks for PR [#859](https://github.com/shanalikhan/code-settings-sync/pull/859) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Remote Development Support Added [#870](https://github.com/shanalikhan/code-settings-sync/issues/870) - Thanks for PR [#871](https://github.com/shanalikhan/code-settings-sync/pull/871) by [@mjbvz](https://github.com/mjbvz)
+* Pragma Util Support for `keybindings.json` Added [#800](https://github.com/shanalikhan/code-settings-sync/issues/800) - Thanks for PR [#854](https://github.com/shanalikhan/code-settings-sync/pull/854) by [@njkevlani](https://github.com/njkevlani)
+* Support OS specific `keybindings.json` in single file [#515](https://github.com/shanalikhan/code-settings-sync/issues/515) - Thanks for PR [#854](https://github.com/shanalikhan/code-settings-sync/pull/854) by [@njkevlani](https://github.com/njkevlani)
+* Improved Auto Upload Process [#839](https://github.com/shanalikhan/code-settings-sync/issues/839) - Thanks for PR [#909](https://github.com/shanalikhan/code-settings-sync/pull/909) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Improved Pragma Util to ignore some values[#865](https://github.com/shanalikhan/code-settings-sync/issues/865) - Thanks for PR [#872](https://github.com/shanalikhan/code-settings-sync/pull/872) by [@ioprotium](https://github.com/ioprotium)
+* Ignore auto-upload process for some settings [#754](https://github.com/shanalikhan/code-settings-sync/issues/754) - Thanks for PR [#872](https://github.com/shanalikhan/code-settings-sync/pull/872) by [@ioprotium](https://github.com/ioprotium)
+* Language localization improved and more languages added. [#886](https://github.com/shanalikhan/code-settings-sync/issues/886) - Thanks for PR [#915](https://github.com/shanalikhan/code-settings-sync/pull/915) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
+* Improved Command line text [#891](https://github.com/shanalikhan/code-settings-sync/issues/891 ) - by [@nawordar](https://github.com/nawordar)
+* Support For Azure Data Studio
+* Node Modules Updated and code refactoring.
+
+
+
 **v3.2.9** - April 18,2019
 
 * Bug : Fixed Code that kills Extension Host for MacOS [#827](https://github.com/shanalikhan/code-settings-sync/issues/827) - Thanks for PR [#834](https://github.com/shanalikhan/code-settings-sync/pull/834) by [@arnohovhannisyan](https://github.com/arnohovhannisyan)
